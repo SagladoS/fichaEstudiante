@@ -18,11 +18,11 @@ body {
 }
 
 h1 {
-    color: var(--clr-primary);
+    color: black;
+    font-weight: bold;
     font-family: 'Trocchi', serif;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: normal;
-    line-height: 48px;
     margin: 0;
     text-align: center;
 }
@@ -48,8 +48,13 @@ h1 {
 
 .email {
     margin-bottom: 1rem;
+    
 }
 
+a{
+    text-decoration: none;
+    color: #37474f;
+}
 img {
     width: 35%;
     border-radius: 50%;

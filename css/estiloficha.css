@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2rem;
+    background-color: #37474f;
+}
+
+h1 {
+    color: var(--clr-primary);
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-gray-light);
+    text-align: center;
+    margin-top: 3rem;
+
+}
+.user{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.nombre {
+    margin-bottom: 1rem;
+}
+
+.email {
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 35%;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.descripcion {
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+}
